@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards>
+
+
+    <!-- Cartes Divinité -->
+
+    <divinite>
+        <name>Brewalen</name>
+        <origine>jour</origine>
+        <dogmes>nature,humain,mystique</dogmes>
+        <description>Premier enfant du Jour, Brewalen cherche à représenter une certaine image de l'harmonie, et tente de mettre en place un statu quo entre les Divinités</description>
+    	<effect>give_points,2,jour</effect>
+    </divinite>
+
+    <divinite>
+        <name>Drinded</name>
+        <origine>jour</origine>
+        <dogmes>nature,humain,symboles</dogmes>
+        <description>Défenseur des hommes, quelles que soient leurs croyances, Drinded protège les chefs religieux</description>
+        <effect>give_points,2,jour</effect>
+    </divinite>
+
+    <divinite>
+        <name>Yarstur</name>
+        <origine>jour</origine>
+        <dogmes>chaos,symboles,mystique</dogmes>
+        <effect>give_points,2,jour</effect>
+        <description>Dernier pur du jour, Yarstur combat le Néant sous toutes ses formes</description>
+    </divinite>
+
+    <divinite>
+        <name>Killinstred</name>
+        <origine>nuit</origine>
+        <dogmes>nature,mystique,chaos</dogmes>
+        <description>Divinité machiavélique et manipulatrice, Killinstred cherche à influencer et contrôler ses ennemis.</description>
+        <effect>give_points,2,nuit</effect>
+    </divinite>
+
+    <divinite>
+        <name>Llewella</name>
+        <dogmes>nature,mystique,chaos</dogmes>
+        <origine>nuit</origine>
+        <description>Divinité machiavélique et manipulatrice, Killinstred cherche à influencer et contrôler ses ennemis.</description>
+    	<effect>give_points,2,nuit</effect>
+    </divinite>
+
+    <divinite>
+        <name>Pui-Tara</name>
+        <dogmes>nature,mystique,symboles</dogmes>
+        <origine>nuit</origine>
+        <effect>give_points,2,nuit</effect>
+        <description>Pui-Tara est la Divinité sur laquelle l'influence de la Nuit s'est faite la plus forte.</description>
+    </divinite>
+
+    <divinite>
+        <name>Gwenghelen</name>
+        <dogmes>humain,mystique,symboles</dogmes>
+        <origine>aube</origine>
+        <effect>give_points,1,jour</effect>
+        <description>Première Divinité à recevoir l'influence du Néant, Gwenghelen est celle qui en a reçu le plus de puissance.</description>
+    </divinite>
+
+    <divinite>
+        <name>Shingva</name>
+        <dogmes>humain,mystique,chaos</dogmes>
+        <origine>aube</origine>
+        <effect>give_points,1,jour</effect>
+        <description>Perverse et retorse, Shingva est une Divinité que toutes les autres détestent.</description>
+    </divinite>
+
+    <divinite>
+        <name>Gorpa</name>
+        <dogmes>humain,symboles,chaos</dogmes>
+        <origine>crepuscule</origine>
+        <effect>give_points,1,nuit</effect>
+        <description>Divinité joueuse et espiègle, Gorpa aime gêner ses consœurs dans leur recherche de puissance.</description>
+    </divinite>
+
+    <divinite>
+        <name>Romtec</name>
+        <dogmes>nature,humain,chaos</dogmes>
+        <origine>crepuscule</origine>
+        <effect>give_points,1,nuit</effect>
+        <description>Romtec est une Divinité individualiste, pour qui chaque être vivant doit garder son libre arbitre.</description>
+    </divinite>
+
+    <!-- Cartes Apocalypse -->
+
+    <apocalypse>
+        <origine>jour</origine>
+    </apocalypse>
+    <apocalypse>
+        <origine>nuit</origine>
+    </apocalypse>
+    <apocalypse>
+        <origine>neant</origine>
+    </apocalypse>
+    <apocalypse></apocalypse>
+    <apocalypse></apocalypse>
+
+
+    <!-- Cartes Croyants -->
+
+    <croyants>
+        <name>Moines 1</name>
+        <origine>jour</origine>
+        <dogmes>humain,nature,mystique</dogmes>
+        <effect>give_points,1,jour</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Moines 2</name>
+        <origine>jour</origine>
+        <dogmes>mystique,humain,chaos</dogmes>
+        <effect>give_points,1,jour</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Moines 3</name>
+        <origine>jour</origine>
+        <dogmes>symboles,mystique,chaos</dogmes>
+        <effect>give_points,1,jour</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Moines 4</name>
+        <origine>jour</origine>
+        <dogmes>mystique,nature,symboles</dogmes>
+        <effect>give_points,1,jour</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Moines 5</name>
+        <origine>jour</origine>
+        <dogmes>mystique,nature,chaos</dogmes>
+        <effect>give_points,1,jour</effect>
+        <count>2</count>
+    </croyants>
+
+
+    <croyants>
+        <name>Travailleurs 1</name>
+        <origine>jour</origine>
+        <dogmes>symboles,humain,chaos</dogmes>
+        <effect>give_points,3,jour</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Travailleurs 2</name>
+        <origine>jour</origine>
+        <dogmes>humain,nature,symboles</dogmes>
+        <effect>give_points,3,jour</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Travailleurs 3</name>
+        <origine>jour</origine>
+        <dogmes>mystique,humain,chaos</dogmes>
+        <effect>give_points,3,jour</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Ermite 1</name>
+        <origine>jour</origine>
+        <dogmes>mystique,nature,chaos</dogmes>
+        <effect>give_points,2,jour</effect>
+        <count>1</count>
+    </croyants>
+
+    <croyants>
+        <name>Ermite 2</name>
+        <origine>jour</origine>
+        <dogmes>mystique,nature,symboles</dogmes>
+        <effect>give_points,2,jour</effect>
+        <count>1</count>
+    </croyants>
+
+    <croyants>
+        <name>Integristes</name>
+        <origine>jour</origine>
+        <dogmes>humain,nature,chaos</dogmes>
+        <effect>give_points,1,jour</effect>
+        <count>1</count>
+    </croyants>
+
+    <croyants>
+        <name>Guerriers Saints</name>
+        <origine>jour</origine>
+        <dogmes>mystique,nature,symboles</dogmes>
+        <effect>give_points,4,jour</effect>
+        <count>4</count>
+    </croyants>
+
+    <croyants>
+        <name>Diplomates</name>
+        <origine>jour</origine>
+        <dogmes>symboles,humain,chaos</dogmes>
+        <effect>launch_dice</effect>
+        <count>4</count>
+    </croyants>
+
+    <croyants>
+        <name>Démons 1</name>
+        <origine>nuit</origine>
+        <dogmes>humain,nature,mystique</dogmes>
+        <effect>give_points,1,nuit</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Démons 2</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,humain,chaos</dogmes>
+        <effect>give_points,1,nuit</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Démons 3</name>
+        <origine>nuit</origine>
+        <dogmes>symboles,mystique,chaos</dogmes>
+        <effect>give_points,1,nuit</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Démons 4</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,nature,symboles</dogmes>
+        <effect>give_points,1,nuit</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Démons 5</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,nature,chaos</dogmes>
+        <effect>give_points,1,nuit</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Alchimistes 1</name>
+        <origine>nuit</origine>
+        <dogmes>symboles,nature,chaos</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Alchimistes 2</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,nature,chaos</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Alchimistes 3</name>
+        <origine>nuit</origine>
+        <dogmes>symboles,nature,chaos</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Vampire 1</name>
+        <origine>nuit</origine>
+        <dogmes>humain,nature,symboles</dogmes>
+        <effect>discard_croyants,chaos</effect>
+        <count>1</count>
+    </croyants>
+
+    <croyants>
+        <name>Vampire 2</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,humain,chaos</dogmes>
+        <effect>discard_croyants,nature</effect>
+        <count>1</count>
+    </croyants>
+
+    <croyants>
+        <name>Lycanthropes</name>
+        <origine>nuit</origine>
+        <dogmes>humain,nature,chaos</dogmes>
+        <effect>discard_croyants,mystique</effect>
+        <count>4</count>
+    </croyants>
+
+    <croyants>
+        <name>Pillards</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,nature,symboles</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <count>4</count>
+    </croyants>
+
+    <croyants>
+        <name>Illusionnistes</name>
+        <origine>nuit</origine>
+        <dogmes>humain,symboles,chaos</dogmes>
+        <effect>give_points,10,nuit</effect>
+        <count>4</count>
+    </croyants>
+
+    <croyants>
+        <name>Esprits 1</name>
+        <origine>neant</origine>
+        <dogmes>humain,nature,mystique</dogmes>
+        <effect>give_points,1,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Esprits 2</name>
+        <origine>neant</origine>
+        <dogmes>mystique,humain,chaos</dogmes>
+        <effect>give_points,1,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Esprits 3</name>
+        <origine>neant</origine>
+        <dogmes>symboles,mystique,chaos</dogmes>
+        <effect>give_points,1,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Esprits 4</name>
+        <origine>neant</origine>
+        <dogmes>mystique,nature,symboles</dogmes>
+        <effect>give_points,1,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Esprits 5</name>
+        <origine>neant</origine>
+        <dogmes>mystique,nature,chaos</dogmes>
+        <effect>give_points,1,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Aliénés 1</name>
+        <origine>neant</origine>
+        <dogmes>symboles,humain,chaos</dogmes>
+        <effect>give_points,4,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Aliénés 2</name>
+        <origine>neant</origine>
+        <dogmes>humain,nature,symboles</dogmes>
+        <effect>give_points,4,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Aliénés 3</name>
+        <origine>neant</origine>
+        <dogmes>mystique,humain,chaos</dogmes>
+        <effect>give_points,4,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Revenant</name>
+        <origine>neant</origine>
+        <dogmes>humain,nature,mystique</dogmes>
+        <effect>give_points,7,neant</effect>
+        <count>1</count>
+    </croyants>
+
+    <croyants>
+        <name>Révolutionnaires</name>
+        <origine>neant</origine>
+        <dogmes>symboles,humain,chaos</dogmes>
+        <effect>give_points,7,neant</effect>
+        <count>2</count>
+    </croyants>
+
+    <croyants>
+        <name>Nihillistes</name>
+        <origine>neant</origine>
+        <dogmes>symboles,mystique,chaos</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <count>4</count>
+    </croyants>
+
+    <!-- Cartes Deus Ex -->
+
+    <deus_ex>
+        <name>Colère divine 1</name>
+        <origine>jour</origine>
+        <effect>give_points,10,jour</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Colère divine 2</name>
+        <origine>nuit</origine>
+        <effect>give_points,10,nuit</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Stase</name>
+        <origine>jour</origine>
+        <effect>give_points,2,jour</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Ordre Céleste</name>
+        <origine>jour</origine>
+        <effect>discard_croyants,chaos</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Fourberie</name>
+        <origine>nuit</origine>
+        <effect>discard_croyants,mystique</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Diversion</name>
+        <origine>nuit</origine>
+        <effect>give_points,4,nuit</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Concentration</name>
+        <origine>neant</origine>
+        <effect>give_points,4,neant</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Trou noir</name>
+        <origine>neant</origine>
+        <effect>give_points,1,neant</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Phœnix</name>
+        <origine>neant</origine>
+        <effect>give_points,10,neant</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Influence Jour</name>
+        <effect>give_points,4,jour</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Influence Nuit</name>
+        <effect>give_points,4,nuit</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Influence Neant</name>
+        <effect>give_points,4,neant</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Influence Nulle</name>
+        <effect>launch_dice</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Influence Nulle</name>
+        <effect>launch_dice</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Transe</name>
+        <effect>discard_croyants,mystique</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Miroir</name>
+        <effect>discard_croyants,symboles</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Bouleversement</name>
+        <effect>launch_dice</effect>
+    </deus_ex>
+
+    <deus_ex>
+        <name>Inquisition</name>
+        <effect>launch_dice</effect>
+    </deus_ex>
+
+
+    <!-- Cartes Guide Spirituel -->
+
+    <guide_spirituel>
+        <name>Martyr 1</name>
+        <origine>jour</origine>
+        <dogmes>nature,humain</dogmes>
+        <effect>apocalypse</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Martyr 2</name>
+        <origine>nuit</origine>
+        <dogmes>humain,symboles</dogmes>
+        <effect>apocalypse</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Martyr 3</name>
+        <origine>neant</origine>
+        <dogmes>nature,chaos</dogmes>
+        <effect>apocalypse</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 1</name>
+        <origine>jour</origine>
+        <dogmes>humain,chaos</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 2</name>
+        <origine>nuit</origine>
+        <dogmes>nature,symboles</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 3</name>
+        <origine>neant</origine>
+        <dogmes>nature,mystique</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 4</name>
+        <origine>jour</origine>
+        <dogmes>nature,chaos</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 5</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,symboles</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 6</name>
+        <origine>neant</origine>
+        <dogmes>nature,mystique</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 7</name>
+        <origine>jour</origine>
+        <dogmes>nature,chaos</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Clerc 8</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,symboles</dogmes>
+        <effect>give_points,3,jour</effect>
+        <capacity>2</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Shaman</name>
+        <origine>nuit</origine>
+        <dogmes>nature,symboles</dogmes>
+        <effect>discard_croyants,nature</effect>
+        <capacity>3</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Anarchiste</name>
+        <origine>neant</origine>
+        <dogmes>humain,chaos</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <capacity>3</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Paladin</name>
+        <origine>jour</origine>
+        <dogmes>humain,mystique</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <capacity>3</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Ascète</name>
+        <origine>nuit</origine>
+        <dogmes>humain,symboles</dogmes>
+        <effect>discard_croyants,humain</effect>
+        <capacity>1</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Devin</name>
+        <origine>neant</origine>
+        <dogmes>nature,mystique</dogmes>
+        <effect>discard_croyants,nature</effect>
+        <capacity>1</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Exorciste</name>
+        <origine>jour</origine>
+        <dogmes>mystique,chaos</dogmes>
+        <effect>discard_croyants,mystique</effect>
+        <capacity>1</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Sorcier</name>
+        <origine>nuit</origine>
+        <dogmes>mystique,symboles</dogmes>
+        <effect>discard_croyants,mystique</effect>
+        <capacity>3</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Tyran</name>
+        <origine>neant</origine>
+        <dogmes>symboles,chaos</dogmes>
+        <effect>discard_croyants,symboles</effect>
+        <capacity>3</capacity>
+    </guide_spirituel>
+
+    <guide_spirituel>
+        <name>Messie</name>
+        <origine>jour</origine>
+        <dogmes>symboles,chaos</dogmes>
+        <effect>discard_croyants,symboles</effect>
+        <capacity>3</capacity>
+    </guide_spirituel>
+
+</cards>

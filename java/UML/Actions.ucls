@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.13" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="fr.utt.pandocreon.core.game.action.impl.DrawCardAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/DrawCardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="177" x="235" y="1079"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="fr.utt.pandocreon.core.game.action.impl.TakeCroyantsCardAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/TakeCroyantsCardAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="313" x="308" y="1326"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="fr.utt.pandocreon.core.game.action.ActionDeliverer" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/ActionDeliverer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="263" x="-283" y="706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="fr.utt.pandocreon.core.game.action.impl.EndTurnAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/EndTurnAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="177" x="452" y="1079"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="fr.utt.pandocreon.core.game.action.ActionType" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/ActionType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="174" x="1141" y="706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="6" language="java" name="fr.utt.pandocreon.java.AbstractGameManager" project="java" 
+    file="/java/src/fr/utt/pandocreon/java/AbstractGameManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="765" width="317" x="20" y="-99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="fr.utt.pandocreon.java.AbstractGameManager.PossibleAction" project="java" 
+    file="/java/src/fr/utt/pandocreon/java/AbstractGameManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="181" x="20" y="706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="fr.utt.pandocreon.java.GameLogger" project="java" 
+    file="/java/src/fr/utt/pandocreon/java/GameLogger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="347" x="377" y="-99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="fr.utt.pandocreon.core.game.action.impl.SacrificeCardAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/SacrificeCardAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="661" y="1326"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="fr.utt.pandocreon.core.game.action.impl.DiscardCardAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/DiscardCardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="179" x="886" y="1326"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="fr.utt.pandocreon.core.game.action.impl.LaunchDiceAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/LaunchDiceAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="177" x="669" y="1079"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="fr.utt.pandocreon.core.game.action.impl.UseEffectAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/UseEffectAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="177" x="1103" y="1079"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="fr.utt.pandocreon.core.game.action.GameAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/GameAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="227" x="747" y="706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="fr.utt.pandocreon.core.game.action.impl.PlayCardAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/PlayCardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="267" x="1105" y="1326"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="fr.utt.pandocreon.core.game.action.ActionDescriptor" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/ActionDescriptor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="231" x="1141" y="-99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="fr.utt.pandocreon.core.game.action.impl.CardAction" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/impl/CardAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="177" x="886" y="1079"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="fr.utt.pandocreon.java.XMLResourceResolver" project="java" 
+    file="/java/src/fr/utt/pandocreon/java/XMLResourceResolver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="337" x="764" y="-99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="fr.utt.pandocreon.core.game.action.ActionDelivererManager" project="core" 
+    file="/core/src/fr/utt/pandocreon/core/game/action/ActionDelivererManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="199" x="241" y="706"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <association id="20">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="21" name="manager"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="26" name="type"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="29" name="action"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <realization id="34">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <nesting id="35">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <association id="39">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="40" name="actions"/>      
+      <multiplicity id="41" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
